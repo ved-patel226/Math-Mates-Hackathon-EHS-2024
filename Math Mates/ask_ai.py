@@ -11,7 +11,7 @@ class Ask_Ai:
     
     def step_by_step(user_i):
         
-        client = OpenAI(api_key = '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')
+        client = OpenAI(api_key = 'ATTENTION!!!! ENTER YOUR API KEY HERE!!!!! READ README FOR MORE INFO')
 
         chat_completion = client.chat.completions.create(
             messages=[
@@ -30,7 +30,7 @@ class Ask_Ai:
 
 
     def practice_problems(user_inp):
-        client = OpenAI(api_key = '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')
+        client = OpenAI(api_key = 'ATTENTION!!!! ENTER YOUR API KEY HERE!!!!! READ README FOR MORE INFO')
 
         chat_completion = client.chat.completions.create(
             messages=[
